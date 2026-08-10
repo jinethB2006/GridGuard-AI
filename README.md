@@ -4,13 +4,13 @@
 
 GridGuard AI is a machine learning project developed to evaluate regional power-grid supply risk. The system combines K-Means clustering and Random Forest classification to identify and predict Low, Medium, and High risk conditions.
 
-## 🌐 Live Website
+##  Live Website
 
 [GridGuard AI](https://gridguardai.streamlit.app/)
 
 ---
 
-## ❗ Problem
+##  Problem
 
 Power-grid conditions can vary across different regions due to changes in power demand, energy availability, shortages, and grid deviations. Identifying regions with higher supply risk from these multiple factors can be difficult using traditional analysis alone.
 
@@ -18,7 +18,7 @@ The dataset also does not directly provide a predefined Low, Medium, or High ris
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 **"Evaluating regional power grid supply risk by combining geographic K-Means clustering with Random Forest risk classification."**
 
@@ -32,7 +32,7 @@ The problem is to develop a machine learning system that can:
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 The main objective of GridGuard AI is to develop an intelligent system for evaluating regional power-grid supply risk using geographical and operational grid features.
 
@@ -46,7 +46,7 @@ The project aims to combine:
 
 ---
 
-## 🔄 Project Workflow
+##  Project Workflow
 
 Power Grid Dataset  
 ↓  
@@ -72,7 +72,7 @@ Streamlit Deployment
 
 ---
 
-## 📊 Features Used
+##  Features Used
 
 The following nine features are used for clustering and risk classification:
 
@@ -88,7 +88,7 @@ The following nine features are used for clustering and risk classification:
 
 ---
 
-## 🤖 Machine Learning Models
+##  Machine Learning Models
 
 ### 1. K-Means Clustering
 
@@ -108,7 +108,7 @@ The nine grid features are used as input variables, and the generated risk categ
 
 ---
 
-## 📈 Model Evaluation
+##  Model Evaluation
 
 The Random Forest model is evaluated using:
 
@@ -126,7 +126,7 @@ The five-fold cross-validation produced a mean F1-score of approximately **0.994
 
 ---
 
-## 🖥️ Streamlit Application
+##  Streamlit Application
 
 The trained machine learning models are deployed using Streamlit.
 
@@ -148,7 +148,7 @@ Risk Result
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 gridguard-ai/
